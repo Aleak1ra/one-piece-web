@@ -66,8 +66,10 @@ main .personagem img {
     background-image: url("../imagens/one-piece-logo.png");
     background-size: cover;
     height: 100px;
-    width: 230px;
-    margin-bottom: 35px;
+    width: 226px;
+    margin-bottom: 20px;
+
+    
 }
 
 .botoes {
