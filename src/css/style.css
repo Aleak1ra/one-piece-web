@@ -9,7 +9,7 @@ main::after {
     top: 0;
     left: 0;
     min-height: 100vh;
-    width: 80vw;
+    width: 100vw;
 
     background: linear-gradient(-233deg, #000 40%, rgba(0, 0, 0, 0) 65%) no-repeat;
 }
@@ -77,12 +77,14 @@ main .personagem img {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    width: 180px;
+    width: 120px;
     justify-content: center;
     align-items: center;
     gap: 10px;
     background-color: rgba(0, 0, 0, 0.3);
 }
+
+
 
 .botoes .botao {
     border: none;
@@ -93,6 +95,7 @@ main .personagem img {
 
 .botoes .botao img {
     border-radius: 50%;
+    width: 70px;
 }
 
 .botoes .botao.selecionado {
