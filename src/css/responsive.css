@@ -43,7 +43,7 @@
 @media (max-width: 425px) {
     main .personagem .imagem {
             height: 100vh;
-            transform: translateX(-240px);
+            
             
         }       
 
