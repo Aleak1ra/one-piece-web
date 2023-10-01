@@ -5,11 +5,11 @@
     }
 
     main .personagem .imagem {
-        width: 100vw;
+        width: calc(100vw + 240px);
         height: 100vh;
-        object-fit: cover;
-        /* object-position: left; 
-        margin-left: -240px; */
+        transform: translate(-240px);
+        object-fit: cover; /* Garante que a imagem cubra completamente o contêiner */
+        
             
     }
 
@@ -43,9 +43,9 @@
 
 @media (max-width: 425px) {
     main .personagem .imagem {
-            height: 100vh;
-            width: 100vw;
-            object-fit: cover;
+            height: auto;
+            
+           
             
             
         }       
