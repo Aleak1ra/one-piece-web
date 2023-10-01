@@ -5,12 +5,12 @@
     }
 
     main .personagem .imagem {
-        width: 100vw;
-        height: 100vh;
-        object-position: left;
+        
+        width: 100vw; /* Define a largura para 100% da largura da tela */
+        height: 100vh; /* Define a altura para 100% da altura da tela */
         object-fit: cover; /* Garante que a imagem cubra completamente o contêiner */
         
-            
+        
     }
 
     .conteudo {
@@ -43,12 +43,11 @@
 
 @media (max-width: 425px) {
     main .personagem .imagem {
-            height: auto;
-            
-           
-            
-            
-        }       
+        height: 100vh;
+        width: calc(100vw + 240px);
+        transform: translate(-240px);
+        overflow:-moz-hidden-unscrollable;
+    }
 
     .conteudo .logo {
         width: 170px;
@@ -65,7 +64,7 @@
 
     .botoes {
         padding: 20px;
-        top: -12%;
+        top: -20%;
     }
 
     .botoes .botao img {
