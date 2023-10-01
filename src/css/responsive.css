@@ -7,8 +7,9 @@
     main .personagem .imagem {
             width: calc(100vw + 240px); 
             height: 100vh;
-            object-fit: cover; 
             transform: translateX(-240px);
+            object-fit: cover; 
+            
     }
 
     .conteudo {
@@ -41,8 +42,9 @@
 
 @media (max-width: 425px) {
     main .personagem .imagem {
-           
             height: 100vh;
+            width: calc(100vw + 240px);
+            transform: translateX(-240px);
             
         }       
 
