@@ -5,9 +5,9 @@
     }
 
     main .personagem .imagem {
-        width: calc(100vw + 240px);
+        width: 100vw;
         height: 100vh;
-        transform: translate(-240px);
+        object-position: left;
         object-fit: cover; /* Garante que a imagem cubra completamente o contêiner */
         
             
