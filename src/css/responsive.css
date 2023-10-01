@@ -5,7 +5,10 @@
     }
 
     main .personagem .imagem {
-        height: 85%;
+            width: calc(100vw + 240px); 
+            height: 100vh;
+            object-fit: cover; /* Garante que a imagem cubra toda a tela */
+            transform: translateX(-240px);
     }
 
     .conteudo {
@@ -38,7 +41,10 @@
 
 @media (max-width: 425px) {
     main .personagem .imagem {
-        height: auto;
+        width: calc(100vw + 240px); 
+            height: 100vh;
+            object-fit: cover; /* Garante que a imagem cubra toda a tela */
+            transform: translateX(-240px);
     }
 
     .conteudo .logo {
@@ -56,7 +62,7 @@
 
     .botoes {
         padding: 20px;
-        top: -20%;
+        top: -12%;
     }
 
     .botoes .botao img {
