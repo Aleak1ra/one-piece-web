@@ -5,9 +5,9 @@
     }
 
     main .personagem .imagem {
-            width: 100vw;
+            width: calc(100vw + 240px); 
             height: 100vh;
-            object-fit: cover; /* Garante que a imagem cubra toda a tela */
+            object-fit: cover; 
             transform: translateX(-240px);
     }
 
@@ -43,9 +43,8 @@
     main .personagem .imagem {
            
             height: 100vh;
-            object-fit: cover; /* Garante que a imagem cubra toda a tela */
-            transform: translateX(-240px);
-    }
+            
+        }       
 
     .conteudo .logo {
         width: 170px;
