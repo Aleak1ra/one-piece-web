@@ -1,6 +1,11 @@
 @media (max-width: 769px){
 
     
+    body {
+        background-color: #000000;
+        overflow: hidden;
+    }
+
         main::after {
             
             width: 100vw;
@@ -49,7 +54,10 @@
 
 @media (max-width: 425px) {
 
-    
+    body {
+        background-color: #000000;
+        overflow: hidden;
+    }
 
     main .personagem .imagem{
         width: calc(100vw + 240px); /* Soma 10 pixels à largura da tela */
