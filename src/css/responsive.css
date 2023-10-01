@@ -4,13 +4,8 @@
         width: 100vw;
     }
 
-    main .personagem .imagem{
-        width: calc(100vw + 240px); 
-        height: 100vh;
-        object-fit: cover; /* Garante que a imagem cubra toda a tela */
-        transform: translateX(-240px);
-        
-        
+    main .personagem .imagem {
+        height: 85%;
     }
 
     .conteudo {
@@ -42,45 +37,8 @@
 }
 
 @media (max-width: 425px) {
-    main .personagem .imagem{
-        width: calc(100vw + 240px); 
-        height: 100vh;
-        object-fit: cover; /* Garante que a imagem cubra toda a tela */
-        transform: translateX(-240px);
-        
-        
-    }
-
-    .conteudo .logo {
-        width: 170px;
-        height: 75px;
-    }
-
-    .conteudo {
-        top: -30%;
-    }
-
-    .conteudo .nome-personagem {
-        font-size: 24px;
-    }
-
-    .botoes {
-        padding: 20px;
-        top: -20%;
-    }
-
-    .botoes .botao img {
-        max-width: 50px;
-    }
-}
-
-@media (max-width: 393px) {
-    main .personagem .imagem{
-        width: calc(100vw + 240px); 
-        height: 100vh;
-        object-fit: cover; /* Garante que a imagem cubra toda a tela */
-        transform: translateX(-240px);
-           
+    main .personagem .imagem {
+        height: auto;
     }
 
     .conteudo .logo {
