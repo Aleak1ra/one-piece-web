@@ -1,12 +1,18 @@
 @media (max-width: 769px){
+
     
         main::after {
             width: 100vw;
             background: linear-gradient(-233deg, #000 20%, rgba(0, 0, 0, 0) 65%) no-repeat;
         }
     
-        main .personagem .image {
-            height: 85%;
+        main .personagem .imagem{
+            width: calc(100vw + 240px); /* Soma 10 pixels à largura da tela */
+            height: 100vh;
+            object-fit: cover; /* Garante que a imagem cubra toda a tela */
+            transform: translateX(-240px);
+            
+            
         }
 
         .conteudo{
@@ -42,10 +48,21 @@
 
 @media (max-width: 425px) {
 
-  
+    
 
     main .personagem .imagem{
-        height: auto;
+        width: calc(100vw + 240px); /* Soma 10 pixels à largura da tela */
+        height: 100vh;
+        object-fit: cover; /* Garante que a imagem cubra toda a tela */
+        transform: translateX(-240px);
+        
+        
+    }
+
+    main .personagem img {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
     }
 
     .logo{
